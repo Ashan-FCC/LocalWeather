@@ -1,8 +1,32 @@
 body {
-	background-color: #666666;
-	color : #FFFFFF;
+	background-color: #FFFFFF;
+	color : #000000;
 	}
 
-	 #map {
-        height: 75%;
-      }
+ #map {
+    height: 75%;
+  }
+
+p .user-location {
+	align-content: left;
+}
+
+.temp-unit {
+	border: none;
+	padding:0 ;
+	/*background: none;*/
+}
+
+.weather_response {
+	margin: 50px 50px 50px 50px;
+	border-style: block;
+	/*outline-style : solid;*/
+	padding: 25px 25px 25px 25px;
+	font-family: 'Roboto Slab', serif;
+}
+.temperature , .description {
+	font-size: 50px;
+}
+#location {
+	font-size: 20px;
+}
